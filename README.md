@@ -12,8 +12,8 @@ collection of spec files. Provided without any warranty.
 The *Source0* directive is defined in a spectool compatible way. This means that all you need to build
 an RPM is the following:
 
-- spectool -g -R <specfile.spec>
-- rpmbuild -ba <specfile>
+- `spectool -g -R <specfile.spec>`
+- `rpmbuild -ba <specfile.spec>`
 
 If you are missing the command line tools, install the package 'rpmbuild' and 'rpmdevtools'
 
