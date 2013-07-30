@@ -11,6 +11,7 @@ BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-tmp
 Provides:      forever
 Requires:      nodejs
 BuildRequires: nodejs
+BuildRequires: npm
 
 %description
 A simple CLI tool for ensuring that a given script runs continuously (i.e. forever)
